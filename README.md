@@ -17,7 +17,7 @@ This project has been developed using:
 
 ## Concepts applied
 In the project, there are several important concepts that have been applied, such as:
-- The design of efficients **Fisical State Machines**.
+- The design of efficients **Finite State Machines**.
 - Clean and commented code for better readability and understanding.
 - An efficient use of the FPGA resources.
 - Modular design to improve scalability and code reusability.
@@ -30,8 +30,15 @@ In the project, there are several important concepts that have been applied, suc
 
 Here you can see how the game is when running in a screen.
 
+Even though is played like a Pac-Man game, the style is like a Mario Bros game, with all the sprites made by hand.
 
+![](img/PACMAN.png)
 
+As additional information, the game includes:
+- A complete working system of 3 lives.
+- A system of punctuation where the coins count as 1 points, the red mushroom as 3 points and the green mushroom as 6 points.
+- A rotation of the sprite depending on the direction of the movement using the same memory block.
+- A pseudo-random code generator for the enemy movement.
 
 
 
