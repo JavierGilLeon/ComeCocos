@@ -10,7 +10,10 @@ This project has been developed using:
 - Timing and constraing tools (.xdc files)
 
 ## Hardware
-
+- FPGA (Basys 3).
+- VGA Output.
+- Button Input.
+- Clock divider and timing signals.
 
 ## Concepts applied
 In the project, there are several important concepts that have been applied, such as:
@@ -22,6 +25,12 @@ In the project, there are several important concepts that have been applied, suc
 - Pixel-based graphics control using VGA.
 - Testing and simulation of components using testbenches.
 - Top-down design methodology, starting from high-level architecture down to low-level modules.
+
+## Preview
+
+Here you can see how the game is when running in a screen.
+
+
 
 
 
